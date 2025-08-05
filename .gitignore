@@ -1,0 +1,9 @@
+*.safetensors
+*.json
+*.png
+matrix-evolution-visualizer
+flux
+FLUX-1.dev
+*.zip
+*venv
+custom_diffusers
