@@ -1,0 +1,41 @@
+FluxPipeline {
+  "_class_name": "FluxPipeline",
+  "_diffusers_version": "0.34.0",
+  "_name_or_path": "/content/FLUX.1-dev",
+  "feature_extractor": [
+    null,
+    null
+  ],
+  "image_encoder": [
+    null,
+    null
+  ],
+  "scheduler": [
+    "custom_diffusers",
+    "FlowMatchEulerDiscreteScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "CLIPTextModel"
+  ],
+  "text_encoder_2": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "tokenizer_2": [
+    "transformers",
+    "T5TokenizerFast"
+  ],
+  "transformer": [
+    "custom_diffusers",
+    "FluxTransformer2DModel"
+  ],
+  "vae": [
+    "custom_diffusers",
+    "AutoencoderKL"
+  ]
+}

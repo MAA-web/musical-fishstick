@@ -1,0 +1,7 @@
+pillow
+transformers
+diffusers
+torch
+protobuf
+accelerate
+sentencepiece
